@@ -14,6 +14,7 @@
 		86EF05F1271D3F51008983E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86EF05F0271D3F51008983E1 /* Assets.xcassets */; };
 		86EF05F4271D3F51008983E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86EF05F3271D3F51008983E1 /* Preview Assets.xcassets */; };
 		86EF05F7271D3F51008983E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86EF05F5271D3F51008983E1 /* LaunchScreen.storyboard */; };
+		86EF0600271D3FE6008983E1 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EF05FF271D3FE6008983E1 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		86EF05F3271D3F51008983E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86EF05F6271D3F51008983E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86EF05F8271D3F51008983E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86EF05FF271D3FE6008983E1 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		86EF05E6271D3F4F008983E1 /* EPL_Team_2 */ = {
 			isa = PBXGroup;
 			children = (
+				86EF05FE271D3FA1008983E1 /* Model */,
 				86EF05E7271D3F4F008983E1 /* AppDelegate.swift */,
 				86EF05E9271D3F4F008983E1 /* SceneDelegate.swift */,
 				86EF05EB271D3F4F008983E1 /* ContentView.swift */,
@@ -66,6 +69,7 @@
 				86EF05F8271D3F51008983E1 /* Info.plist */,
 				86EF05ED271D3F4F008983E1 /* EPL_Team_2.xcdatamodeld */,
 				86EF05F2271D3F51008983E1 /* Preview Content */,
+				86EF05FF271D3FE6008983E1 /* Parser.swift */,
 			);
 			path = EPL_Team_2;
 			sourceTree = "<group>";
@@ -76,6 +80,13 @@
 				86EF05F3271D3F51008983E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86EF05FE271D3FA1008983E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				86EF05E8271D3F4F008983E1 /* AppDelegate.swift in Sources */,
 				86EF05EA271D3F4F008983E1 /* SceneDelegate.swift in Sources */,
+				86EF0600271D3FE6008983E1 /* Parser.swift in Sources */,
 				86EF05EC271D3F4F008983E1 /* ContentView.swift in Sources */,
 				86EF05EF271D3F4F008983E1 /* EPL_Team_2.xcdatamodeld in Sources */,
 			);
