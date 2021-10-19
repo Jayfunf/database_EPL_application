@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "premier_clubs_info.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
