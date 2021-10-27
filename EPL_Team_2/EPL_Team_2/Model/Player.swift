@@ -14,10 +14,10 @@ struct Player: Identifiable{
     var name: String
     var position: String
     var country: String
-    var date_of_birth: String //Time?
+    var date_of_birth: String
     var age: Int
-    var height: String //Int?
-    var weight: String //Int?
-    var player_img_url: String
-    var player_detail_url: String
+    var height: String
+    var weight: String
+    var player_img_url: String?
+    var player_detail_url: String?
 }

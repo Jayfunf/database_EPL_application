@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    //var mainPlayer: Player
+    //var mainClub: Club
     var body: some View {
         VStack{
             
+            //ClubList(clubList: )
         }
     }
 }

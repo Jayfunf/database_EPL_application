@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868B20162729683400A3826F /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B20152729683400A3826F /* RankingView.swift */; };
 		8698B2A5271E7F7700DA1685 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698B2A4271E7F7700DA1685 /* Player.swift */; };
 		8698B2A8271E806F00DA1685 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698B2A7271E806F00DA1685 /* PlayerList.swift */; };
 		8698B2AA271E97ED00DA1685 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8698B2A9271E97ED00DA1685 /* Club.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		868B20152729683400A3826F /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
 		8698B2A4271E7F7700DA1685 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		8698B2A7271E806F00DA1685 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 		8698B2A9271E97ED00DA1685 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
@@ -47,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		868B20142729680400A3826F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86EF05EB271D3F4F008983E1 /* ContentView.swift */,
+				868B20152729683400A3826F /* RankingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		86EF05DB271D3F4F008983E1 = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +77,10 @@
 		86EF05E6271D3F4F008983E1 /* EPL_Team_2 */ = {
 			isa = PBXGroup;
 			children = (
+				868B20142729680400A3826F /* View */,
 				86EF05FE271D3FA1008983E1 /* Model */,
 				86EF05E7271D3F4F008983E1 /* AppDelegate.swift */,
 				86EF05E9271D3F4F008983E1 /* SceneDelegate.swift */,
-				86EF05EB271D3F4F008983E1 /* ContentView.swift */,
 				86EF05F0271D3F51008983E1 /* Assets.xcassets */,
 				86EF05F5271D3F51008983E1 /* LaunchScreen.storyboard */,
 				86EF05F8271D3F51008983E1 /* Info.plist */,
@@ -169,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86EF05E8271D3F4F008983E1 /* AppDelegate.swift in Sources */,
+				868B20162729683400A3826F /* RankingView.swift in Sources */,
 				86EF05EA271D3F4F008983E1 /* SceneDelegate.swift in Sources */,
 				86EF05EC271D3F4F008983E1 /* ContentView.swift in Sources */,
 				8698B2AC271E986300DA1685 /* ClubList.swift in Sources */,
