@@ -20,10 +20,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Get the managed object context from the shared persistent container.
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let playerstore = PlayerStore() // PlayerStore을 EnvironmentObject로 사용하기 위해 선언
+        let clubstore = ClubStore()
 
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-        let contentView = ContentView().environment(\.managedObjectContext, context)
+        let contentView = MainView()
+            .environment(\.managedObjectContext, context)
+            .environmentObject(playerstore)
+            .environmentObject(clubstore)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
